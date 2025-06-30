@@ -16,10 +16,13 @@
         <div class="product-container">
           <div class="product-image">
             <!-- image goes here -->
+             <img v-bind:src="image" alt="Green Socks" />
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
+            <a :href="url">Scopri Vue</a>
           </div>
+          
         </div>
       </div>
     </div>
